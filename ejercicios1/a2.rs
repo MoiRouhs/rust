@@ -8,5 +8,10 @@ fn main() {  // En rust tenemos dos tipos de cadena de texto &str y String.
   println!("{}",texto2); 
   
   // En rust los enlaces a variables por defecto no pueden ser sobreescritos, para poderlos sobre escribir es necesario especificarlos con "mut"
-
+  
+  // No es posible concadenar dos enlaces a variables de tipo String por eso en el segundo termino a concadenar debe agregarse "&"
+  let mut texto3 = "Como ".to_string();
+  let texto4 = "estas?".to_string();
+  texto3 = texto3 + &texto4;
+  println!("{}",texto3);
 }
