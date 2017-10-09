@@ -1,4 +1,4 @@
-use std::collections::HashMap; // Hashmap, Se necesita esta librria para que funcione los hashmap
+use std::collections::HashMap; // Hashmap, Se necesita esta librería para que funcione los hashmap
 
 fn main() { 
 
